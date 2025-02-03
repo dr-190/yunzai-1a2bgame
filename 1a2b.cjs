@@ -99,14 +99,13 @@ class OneA2BGame {
     }
 }
 
-const gameInstance = new OneA2BGame();
-
-// 处理命令
-const commands = {
-    start: (userId) => gameInstance.startGame(userId),
-    end: (userId) => gameInstance.endGame(userId),
-    help: () => gameInstance.showHelp(),
-    guess: (userId, guess) => gameInstance.guessNumber(userId, guess)
+// 导出功能
+module.exports = {
+    gameInstance: new OneA2BGame(),
+    commands: {
+        start: (userId) => gameInstance.startGame(userId),
+        end: (userId) => gameInstance.endGame(userId),
+        help: () => gameInstance.showHelp(),
+        guess: (userId, guess) => gameInstance.guessNumber(userId, guess)
+    }
 };
-
-module.exports = commands;
