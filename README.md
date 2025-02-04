@@ -11,6 +11,21 @@ git clone https://github.com/dr-190/yunzai-1a2bgame.git
 ```bash
 git clone https://wget.la/https://github.com/dr-190/yunzai-1a2bgame.git
 ```
+
+**文件夹名要改为：`1a2b`**
+或者修改 `1a2b.js` 文件的第3行中的`1a2b`为你所在文件夹名
+```JavaScript
+const GAME_STATE_FILE = './plugins/1a2b/game_state.json';
+```
+假如我的插件放在：
+plugins
+└── 1a2bgame
+    └── 1a2b.js
+则改为：
+```JavaScript
+const GAME_STATE_FILE = './plugins/1a2bgame/game_state.json';
+```
+
 ## 使用方法
 
 ### 指令说明
