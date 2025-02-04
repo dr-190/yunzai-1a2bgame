@@ -6,12 +6,12 @@
 ## 安装
 
 ```bash
-git clone https://github.com/dr-190/yunzai-1a2bgame.git
+git clone https://github.com/dr-190/yunzai-1a2bgame-plugin.git
 ```
 
 **镜像下载（国内推荐）**
 ```bash
-git clone https://wget.la/https://github.com/dr-190/yunzai-1a2bgame.git
+git clone https://wget.la/https://github.com/dr-190/yunzai-1a2bgame-plugin.git
 ```
 
 **文件夹名要改为：`1a2b`**  
