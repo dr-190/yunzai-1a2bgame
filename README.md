@@ -18,8 +18,8 @@ git clone https://wget.la/https://github.com/dr-190/yunzai-1a2bgame.git
 const GAME_STATE_FILE = './plugins/1a2b/game_state.json';
 ```
 假如我的插件放在：
-plugins
-└── 1a2bgame
+plugins<br>
+└── 1a2bgame<br>
     └── 1a2b.js
 则改为：
 ```JavaScript
